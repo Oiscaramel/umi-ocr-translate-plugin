@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "auto_translate": false,
+  "direction": "auto",
+  "embed_button": true,
+  "hotkey": "ctrl+alt+t",
+  "hotkey_enabled": true,
+  "preload": false,
+  "line_mode": "block",
+  "service": {
+    "host": "127.0.0.1",
+    "port": 17321,
+    "idle_timeout": 900,
+    "beam_size": 4,
+    "threads": 0,
+    "compute_type": "int8",
+    "start_timeout": 90,
+    "request_timeout": 180
+  },
+  "window": {
+    "width": 760,
+    "height": 420,
+    "always_on_top": false
+  }
+}

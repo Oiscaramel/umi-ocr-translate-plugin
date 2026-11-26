@@ -1,0 +1,20 @@
+# 构建中间产物 / 本机运行数据
+build/
+vendor/
+models/
+dist/
+*.zip
+
+# 插件运行时生成
+**/logs/
+**/__pycache__/
+*.pyc
+
+# 备份
+backup/
+*.bak_*
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
